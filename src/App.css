@@ -1,0 +1,16 @@
+.cart-container {
+  position: relative;
+}
+
+.cart-popup {
+  position: absolute;
+  top: 100%; /* Display the cart below the button */
+  right: 0;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  z-index: 10;
+  margin-top: 0.5rem;
+}
